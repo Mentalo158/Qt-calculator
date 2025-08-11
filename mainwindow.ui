@@ -25,14 +25,14 @@
     </property>
     <layout class="QGridLayout" name="gridLayout">
      <item row="5" column="1">
-      <widget class="QPushButton" name="pushButton_14">
+      <widget class="QPushButton" name="btnAddNumberZero">
        <property name="text">
         <string>0</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QPushButton" name="pushButton_6">
+      <widget class="QPushButton" name="btnAdNumberSeven">
        <property name="text">
         <string>7</string>
        </property>
@@ -46,7 +46,7 @@
       </widget>
      </item>
      <item row="3" column="3">
-      <widget class="QPushButton" name="pushButton_22">
+      <widget class="QPushButton" name="btnSubtract">
        <property name="text">
         <string>-</string>
        </property>
@@ -60,14 +60,14 @@
       </widget>
      </item>
      <item row="5" column="3">
-      <widget class="QPushButton" name="pushButton_24">
+      <widget class="QPushButton" name="btnShowResult">
        <property name="text">
         <string>=</string>
        </property>
       </widget>
      </item>
      <item row="2" column="2">
-      <widget class="QPushButton" name="pushButton_16">
+      <widget class="QPushButton" name="btnAddNumberNine">
        <property name="text">
         <string>9</string>
        </property>
@@ -81,21 +81,21 @@
       </widget>
      </item>
      <item row="4" column="2">
-      <widget class="QPushButton" name="pushButton_18">
+      <widget class="QPushButton" name="btnAddNumberThree">
        <property name="text">
         <string>3</string>
        </property>
       </widget>
      </item>
      <item row="3" column="2">
-      <widget class="QPushButton" name="pushButton_17">
+      <widget class="QPushButton" name="btnAddNumberSix">
        <property name="text">
         <string>6</string>
        </property>
       </widget>
      </item>
      <item row="4" column="3">
-      <widget class="QPushButton" name="pushButton_23">
+      <widget class="QPushButton" name="btnAdd">
        <property name="text">
         <string>+</string>
        </property>
@@ -109,14 +109,14 @@
       </widget>
      </item>
      <item row="0" column="3">
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="btnDelete">
        <property name="text">
         <string>DEL</string>
        </property>
       </widget>
      </item>
      <item row="4" column="1">
-      <widget class="QPushButton" name="pushButton_13">
+      <widget class="QPushButton" name="BtnNumberTwo">
        <property name="text">
         <string>2</string>
        </property>
@@ -130,63 +130,63 @@
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QPushButton" name="pushButton_8">
+      <widget class="QPushButton" name="btnAddNumberOne">
        <property name="text">
         <string>1</string>
        </property>
       </widget>
      </item>
      <item row="1" column="3">
-      <widget class="QPushButton" name="pushButton_20">
+      <widget class="QPushButton" name="btnDivide">
        <property name="text">
         <string>/</string>
        </property>
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="btnModulo">
        <property name="text">
         <string>%</string>
        </property>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QPushButton" name="pushButton_7">
+      <widget class="QPushButton" name="btnAddNumberFour">
        <property name="text">
         <string>4</string>
        </property>
       </widget>
      </item>
      <item row="5" column="0">
-      <widget class="QPushButton" name="pushButton_9">
+      <widget class="QPushButton" name="btnNegateNumber">
        <property name="text">
         <string>negate()</string>
        </property>
       </widget>
      </item>
      <item row="2" column="3">
-      <widget class="QPushButton" name="pushButton_21">
+      <widget class="QPushButton" name="btnMultiply">
        <property name="text">
         <string>X</string>
        </property>
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QPushButton" name="pushButton_12">
+      <widget class="QPushButton" name="btnAddNumberFive">
        <property name="text">
         <string>5</string>
        </property>
       </widget>
      </item>
      <item row="5" column="2">
-      <widget class="QPushButton" name="pushButton_19">
+      <widget class="QPushButton" name="btnAddFloatingPoint">
        <property name="text">
         <string>,</string>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QPushButton" name="pushButton_11">
+      <widget class="QPushButton" name="btnAddNumberEight">
        <property name="text">
         <string>8</string>
        </property>
@@ -194,7 +194,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="ResultInput">
     <property name="geometry">
      <rect>
       <x>10</x>
